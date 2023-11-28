@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+    background: url(wooden-table.jpg);
+    background-size: cover;  
+}
+
+.welcomeMsg{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 50px;
+    align-items: center;
+    color: aliceblue;
+    /* background-color: #f907fc;
+    background-image: linear-gradient(315deg, #f907fc 0%, #05d6d9 74%); */
+    border-radius: 20px 20px 20px 20px ;
+}
+.lostFound{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* background: url(wooden-table.jpg); */
+    /* background-position: center;
+    /* background-size: cover; */
+}
+
+.lost button{
+    height: 100%;
+    width: 100%;
+    padding: 30px 212px;
+    font-size: x-large;
+    cursor: pointer;
+    background: linear-gradient(to right ,#f907fc, #05d6d9 );
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+button:hover{
+    background: linear-gradient(to top right  , #05d6d9,#f907fc );
+}
+
+.found button{
+    height: 100%;
+    width: 100%;
+    padding: 30px 200px;
+    font-size: x-large;
+    cursor: pointer;
+    background: linear-gradient(to right ,#f907fc, #05d6d9 );
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+button:hover{
+    background: linear-gradient(to top right  , #05d6d9,#f907fc );
+}
+
+.Explore{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    /* background-color: #f907fc;
+    background-image: linear-gradient(315deg, #f907fc 0%, #05d6d9 74%); */
+    border-radius: 20px 20px 20px 20px ;
+}
+
+
+
+
