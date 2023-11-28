@@ -41,7 +41,7 @@
 .lost button{
     height: 100%;
     width: 100%;
-    padding: 30px 212px;
+    padding: 30px 200px;
     font-size: x-large;
     cursor: pointer;
     background: linear-gradient(to right ,#f907fc, #05d6d9 );
@@ -56,7 +56,7 @@ button:hover{
 .found button{
     height: 100%;
     width: 100%;
-    padding: 30px 200px;
+    padding: 30px 212px;
     font-size: x-large;
     cursor: pointer;
     background: linear-gradient(to right ,#f907fc, #05d6d9 );
